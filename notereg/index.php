@@ -93,7 +93,7 @@ else{
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <form action="/php_practice/notereg/" method="POST">
+        <form action="/php_project/notereg/" method="POST">
           <div class="modal-body">
             <input type="hidden" name="snoEdit" id="snoEdit">
             <div class="form-group">
@@ -188,7 +188,7 @@ else{
   ?>
   <div class="container my-4 bg-warning p-5">
     <h2 class="text-white fw-bold">Add a Note to iNotes</h2>
-    <form action="/php_practice/notereg/" method="POST" class="text-white fw-bold">
+    <form action="/php_project/notereg/" method="POST" class="text-white fw-bold">
       <div class="form-group">
         <label for="title">Note Title</label>
         <input type="text" class="form-control" id="title" name="title" aria-describedby="emailHelp">
@@ -278,7 +278,7 @@ else{
 
         if (confirm("Are you sure you want to delete this note!")) {
           console.log("yes");
-          window.location = `/php_practice/notereg/?delete=${sno}`;
+          window.location = `/php_project/notereg/?delete=${sno}`;
           // TODO: Create a form and use post request to submit a form
         }
         else {
