@@ -62,7 +62,7 @@ session_start();
     ?>
     <div class="container w-50 bg-light text-center my-5 p-5">
         <h2 class="text-warning text-center">Log In Here</h2>
-        <form action="/php_practice/notereg/login.php" method ="POST">
+        <form action="/php_project/notereg/login.php" method ="POST">
   <!-- Email input -->
   <div class="form-outline mb-4">
     <input type="email" id="form2Example1" class="form-control" name="email" required  />
