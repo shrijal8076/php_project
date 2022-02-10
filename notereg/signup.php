@@ -77,7 +77,7 @@ rel="stylesheet"
     <!-- signup form -->
     <div class="container bg-light my-5 p-5 w-50">
       <h2 class="text-warning text-center my-3 ">Create Your Account</h2>
-        <form action="/php_practice/notereg/signup.php" method="POST">
+        <form action="/php_project/notereg/signup.php" method="POST">
             <!-- 2 column grid layout with text inputs for the user name -->
             <div class="row mb-4">
               <div class="col">
